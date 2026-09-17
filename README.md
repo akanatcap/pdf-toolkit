@@ -122,6 +122,16 @@ pyinstaller --onefile --windowed --name "PDF Toolkit" pdf_toolkit.py
 The executable lands in `dist/`. `--windowed` suppresses the console window;
 drop that flag while debugging so you can see tracebacks.
 
+## Windows one-click release
+
+A packaged executable is already generated in the project folder and can be run
+without any Python installation:
+
+- [dist/PDF Toolkit.exe](dist/PDF%20Toolkit.exe)
+
+This is the easiest way to distribute the app. The packaged binary opens the
+Tkinter window directly when double-clicked.
+
 ---
 
 ## Ideas for the next version
