@@ -1,0 +1,9 @@
+# Core - required
+pypdf>=5.0
+
+# Recommended - better lossless compression and more tolerant of damaged files
+pikepdf>=9.0
+
+# Optional - unlocks the Balanced and Strong compression levels
+# (image downsampling). Note: PyMuPDF is AGPL licensed.
+PyMuPDF>=1.24
