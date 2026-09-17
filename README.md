@@ -1,5 +1,9 @@
 # PDF Toolkit
 
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-4CAF50)
+
 An offline desktop app for working with PDF files: merge, rearrange, split,
 compress, and password-protect. No internet connection, no uploads, no
 account. Every operation happens on your own machine.
@@ -128,3 +132,8 @@ drop that flag while debugging so you can see tracebacks.
 - A watch folder that compresses anything dropped into it automatically.
 - Extract text and tables to Excel with `pdfplumber` — the natural bridge from
   this app to analytics work.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for
+more details.
